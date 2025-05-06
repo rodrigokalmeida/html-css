@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+h1 {
+    color: #053C5E;
+}
+h2{ 
+    
+    color: #053C5E;
+}
+body
+{  
+    text-align: center;
+  background-color: #053C5E;
+}
+
+div { border-radius: 20px;
+    height: auto;
+    width: auto;
+    background-color: #ECD444 ;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+#seta{
+    width: 34px;
+    height: 35px;
+}
+div > p#escondido{
+    display: none;
+    font-size: 30px;
+  color: #053C5E;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+div:hover > p#escondido {
+    display: block;
+}

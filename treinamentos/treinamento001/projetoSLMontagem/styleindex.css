@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+header > h1{ 
+    font-size: 55px;
+    color: white;
+    width: 1097px;
+    text-align: center;
+    padding: 38px 0px 80px 1px;
+    margin: auto;
+    background-color: #263F73;
+    border: 1px black;
+    border-radius: 19px;
+}
+
+.logotipo{
+    height: 142px;
+    width: 167px;
+    border-radius: 50px;
+    padding: 0px 0px 1px 1px;
+    margin: -156px 0px 20px 456px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 11px 1px 2px 45px;
+    margin: -83px 1px 58px 1px;
+    text-align: center;
+
+}
+
+nav > a{
+    text-decoration: none;
+    color: #D99518;
+    margin-right: 23px;
+    padding: 1px 1px 1px 1px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}

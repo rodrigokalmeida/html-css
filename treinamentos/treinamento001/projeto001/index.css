@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+h1 {
+    color: #053C5E;
+}
+h2{ 
+    
+    color: #053C5E;
+}
+body
+{  
+    text-align: center;
+  background-color: #053C5E;
+}
+
+div {
+     border-radius: 20px;
+    height: 436px;
+    width: 805px;
+    background-color: #ECD444 ;
+    margin: 10px 10px 10px 10px;
+    margin: 0 auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+
+#imagemcss{
+    width: 319px;
+    height: auto;
+}
+
+
+#h1principal{
+    color: #053C5E
+}
+#h2principal{
+    color: #053C5E
+}
+#videosinformativos{
+    color: #ECD444;
+}
+h1#videosinformativos:hover{
+text-decoration: underline; color: red;
+
+}
+#divdosvideos{
+    margin: 10px 10px 10px 10px;
+    height: 628px;
+    width: 431px;
+    margin: 0 auto;
+}
+.videosytb {
+    margin: auto;
+    height: 182px;
+    width: 432px;
+    margin-top: 18px;
+}
+
+

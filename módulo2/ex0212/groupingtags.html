@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(197, 197, 197);
+            margin: 0px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0,0, 0.315);
+
+        }
+        article > p{
+            text-align: justify;
+            
+        }
+        article{
+            background-color: rgb(204, 204, 204);
+        }
+        nav{
+            background-color: lightgray;
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgb(83, 82, 82);
+            
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(31, 30, 30);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article > aside {
+            background-color: rgb(104, 103, 103);
+            color: white;
+            text-align: center;
+        }
+        header{
+           
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 14px 9px;
+            box-shadow: 4px 2px 3px 2px #767676;
+
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 2px 3px 2px #767676;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+
+    
+    </style>
+</head>
+<body>
+    <!-- cabeçalho = header-->
+   <header> 
+    <h1> Meu site </h1>
+    <!-- Menus e links = nav -->
+    <nav>
+        <a href="#"> link </a>
+        <a href="#"> link </a>
+        <a href="#"> link </a>
+        <a href="#"> link </a>
+        <a href="#"> link </a>
+
+    </nav>
+
+    </header>
+    <!-- conteúdo principal = main -->
+    <main>
+        <!-- Assuntos e seções dentro do conteúdo principal = section -->
+        <section id="assuntos">
+            <p>
+                Esportes política e tecnologia!
+            </p>
+ 
+        </section>
+        <section id="Noticias">
+            <!-- article = Conteúdo idependendte e reutilizavel, como postagens de blog ou notícias.-->
+            <article>
+                <h2>
+                    Notícias sobre o Brasil!
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quibusdam saepe nemo temporibus possimus consectetur, nam doloremque inventore quidem eveniet beatae sit ut aut fuga magnam a dolor vel suscipit?
+                </p>
+                <!-- aside= usado para conteudo tangencial ou complementar como barras laterais ou citações.-->
+                <aside>
+                    <p>
+                        artigo escrito por josé da silva 
+                    </p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <!-- Rodapé = footer -->
+    <footer> 
+        <p>
+            Desenvolvido pelo curso em vídeo!
+        </p>
+
+    </footer>
+    
+</body>
+</html>
